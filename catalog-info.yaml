@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: microfrontend-vue
+  description: Microfrontend buscando la integracion backstage github 
+  annotations:
+    github.com/project-slug: julioraulcarranzaruiz/app-vue-app
+  #   backstage.io/techdocs-ref: dir:.
+  
+spec:
+  type: website
+  owner: development
+  lifecycle: production
+
