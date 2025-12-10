@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: mf-colorpicker
-  description: Microfrontend para la selección de color.
+  name: mf-rootconfig
+  description: Microfrontend para la gestion de ruta y configuraciones iniciales
   annotations:
     github.com/project-slug: julioraulcarranzaruiz/app-vue-app
     backstage.io/techdocs-ref: dir:.
@@ -21,3 +21,13 @@ spec:
   owner: julioraul.carranza
   system: transaccionales
   domain: transaccionales
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+    name: arquitecturasoftwarefront
+    description: Arquitectura de Software - Front
+spec:
+    owner: julioraul.carranza
+    domain: arquitecturasoftwarefront
