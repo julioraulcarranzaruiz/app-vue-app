@@ -23,6 +23,9 @@ spec:
   owner: julioraul.carranza
   system: mf-rootconfig
   domain: arquitecturasoftwarefront
+  subcomponents:
+    - component: microfrontend-notifications
+    - component: microfrontend-dashboard
 
 ---
 apiVersion: backstage.io/v1alpha1
