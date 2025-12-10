@@ -51,3 +51,21 @@ spec:
   lifecycle: production
   owner: team-arquitectura
   system: arquitectura-frontend
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mf-settings
+  description: Microfrontend para configuración avanzada y ajustes del sistema.
+  annotations:
+    github.com/project-slug: empresa/mf-settings
+  tags:
+    - vue3
+    - microfrontend
+spec:
+  type: website
+  lifecycle: production
+  owner: team-arquitectura
+  system: arquitectura-frontend
+
