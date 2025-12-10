@@ -2,37 +2,25 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: mf-rootconfig
-  description: Microfrontend para la gestion de ruta y configuraciones iniciales
+  description: Microfrontend raíz encargado de la configuración inicial y enrutamiento.
   annotations:
     github.com/project-slug: julioraulcarranzaruiz/app-vue-app
     backstage.io/techdocs-ref: dir:.
     framework/vue-version: "3"
   tags:
-    - javascript
     - vue3
+    - microfrontend
+    - javascript
 
-  links:
-    - url: https://admin.example-org.com
-      title: Admin Dashboard
-      icon: dashboard
-      type: admin-dashboard
-  
 spec:
   type: website
   lifecycle: production
-  owner: julioraul.carranza
-  system: mf-rootconfig
+  owner: team-arquitectura
+  system: arquitectura-frontend
   domain: arquitecturasoftwarefront
-  subcomponents:
-    - component: microfrontend-notifications
-    - component: microfrontend-dashboard
 
----
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-    name: mf-rootconfig
-    description: Arquitectura de Software - Front
-spec:
-    owner: julioraul.carranza
-    domain: arquitecturasoftwarefront
+  subcomponents:
+    - component: mf-notifications
+    - component: mf-dashboard
+    - component: mf-profile
+    - component: mf-settings
