@@ -21,7 +21,7 @@ spec:
   type: website
   lifecycle: production
   owner: julioraul.carranza
-  system: arquitecturasoftwarefront
+  system: mf-rootconfig
   domain: arquitecturasoftwarefront
 
 ---
