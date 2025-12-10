@@ -21,8 +21,6 @@ spec:
 
   subcomponents:
     - component: mf-msalbody
-    - component: mf-dashboard
-    - component: mf-profile
     - component: mf-settings
 
 ---
