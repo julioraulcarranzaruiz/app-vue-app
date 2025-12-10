@@ -6,3 +6,25 @@ nav:
       - Visión general: arquitectura/index.md
       - Diagrama de arquitectura: arquitectura/diagrama-arquitectura.md
       - Decisiones arquitectónicas (ADR): arquitectura/decisiones-arquitectura.md
+
+  - Componentes:
+      - Componente raíz (mf-rootconfig): componentes/mf-rootconfig.md
+      - Notificaciones (mf-notifications): componentes/mf-notifications.md
+      - Dashboard (mf-dashboard): componentes/mf-dashboard.md
+      - Perfil (mf-profile): componentes/mf-profile.md
+      - Configuración (mf-settings): componentes/mf-settings.md
+
+  - Desarrollo:
+      - Setup local: desarrollo/setup-local.md
+      - Estándares de código: desarrollo/estandares-codigo.md
+      - Convenciones Git: desarrollo/convenciones-git.md
+      - Despliegue: desarrollo/despliegue.md
+
+  - Operaciones:
+      - Monitoreo: operaciones/monitoreo.md
+      - Alertas: operaciones/alertas.md
+      - Troubleshooting: operaciones/troubleshooting.md
+
+plugins:
+  - techdocs-core
+
