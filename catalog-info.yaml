@@ -24,3 +24,30 @@ spec:
     - component: mf-dashboard
     - component: mf-profile
     - component: mf-settings
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: arquitectura-frontend
+  description: Arquitectura de microfrontends de la organización.
+spec:
+  owner: team-arquitectura
+  domain: arquitecturasoftwarefront
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mf-notifications
+  description: Microfrontend encargado de la visualización y gestión de notificaciones.
+  annotations:
+    github.com/project-slug: empresa/mf-notifications
+  tags:
+    - vue3
+    - microfrontend
+spec:
+  type: website
+  lifecycle: production
+  owner: team-notificaciones
+  system: arquitectura-frontend
