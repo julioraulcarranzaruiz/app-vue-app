@@ -20,7 +20,7 @@ spec:
   domain: arquitecturasoftwarefront
 
   subcomponents:
-    - component: mf-notifications
+    - component: mf-msalbody
     - component: mf-dashboard
     - component: mf-profile
     - component: mf-settings
@@ -39,8 +39,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: mf-notifications
-  description: Microfrontend encargado de la visualización y gestión de notificaciones.
+  name: mf-msalbody
+  description: Microfrontend encargado de validar el b2c
   annotations:
     github.com/project-slug: empresa/mf-notifications
   tags:
