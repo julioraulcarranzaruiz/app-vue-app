@@ -49,5 +49,5 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: team-notificaciones
+  owner: team-arquitectura
   system: arquitectura-frontend
