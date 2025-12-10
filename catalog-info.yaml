@@ -9,6 +9,7 @@ metadata:
     framework/vue-version: "3"
   tags:
     - javascript
+    - vue3
 
   links:
     - url: https://admin.example-org.com
@@ -20,8 +21,8 @@ spec:
   type: website
   lifecycle: production
   owner: julioraul.carranza
-  system: transaccionales
-  domain: transaccionales
+  system: arquitecturasoftwarefront
+  domain: arquitecturasoftwarefront
 
 ---
 apiVersion: backstage.io/v1alpha1
