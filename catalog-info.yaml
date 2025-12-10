@@ -28,7 +28,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-    name: arquitecturasoftwarefront
+    name: mf-rootconfig
     description: Arquitectura de Software - Front
 spec:
     owner: julioraul.carranza
