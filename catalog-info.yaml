@@ -6,6 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: julioraulcarranzaruiz/app-vue-app
     backstage.io/techdocs-ref: dir:.
+    framework/vue-version: "3"
   tags:
     - javascript
 
