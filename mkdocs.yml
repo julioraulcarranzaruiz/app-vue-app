@@ -1,0 +1,8 @@
+site_name: "Arquitectura de Microfrontends - Sistema Front"
+site_description: "Documentación técnica oficial del sistema de microfrontends."
+nav:
+  - Introducción: index.md
+  - Arquitectura:
+      - Visión general: arquitectura/index.md
+      - Diagrama de arquitectura: arquitectura/diagrama-arquitectura.md
+      - Decisiones arquitectónicas (ADR): arquitectura/decisiones-arquitectura.md
