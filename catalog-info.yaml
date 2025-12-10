@@ -1,14 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: mf-app-vue-app
-  description: Microfrontend backstage
+  name: mf-colorpicker
+  description: Microfrontend para la selección de color.
   annotations:
     github.com/project-slug: julioraulcarranzaruiz/app-vue-app
+    backstage.io/techdocs-ref: dir:.
   tags:
     - javascript
-    - vue3
-
 
   links:
     - url: https://admin.example-org.com
@@ -22,14 +21,3 @@ spec:
   owner: julioraul.carranza
   system: transaccionales
   domain: transaccionales
-
-
----
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-    name: transaccionales
-    description: Sistema Transaccionales
-spec:
-    owner: julioraul.carranza
-    domain: transaccionales
